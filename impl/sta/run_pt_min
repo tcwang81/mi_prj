@@ -1,0 +1,1 @@
+pt_shell -f ./scripts/pt_min.tcl | tee pt.log

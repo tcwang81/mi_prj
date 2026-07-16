@@ -1,0 +1,1 @@
+pt_shell -f ./scripts/pt_max.tcl | tee pt.log

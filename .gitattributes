@@ -1,0 +1,6 @@
+# 1. 先將所有檔案預設為 LF (Unix 格式)
+* text eol=lf
+
+# 2. 排除常見的 Windows 檔案或特定副檔名，讓它們維持 Windows 格式（可選）
+*.bat text eol=crlf
+*.cmd text eol=crlf

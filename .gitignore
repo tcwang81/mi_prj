@@ -1,0 +1,68 @@
+# 忽略所有 .log 結尾的檔案
+*.log
+*.bak
+*.bck
+*.sdf
+*.sdfX
+*.conf
+*.fsdb
+*.vcd
+*.history
+*.rc
+*.v~
+*.max
+*.min
+*.rpt
+*.key
+*.pptx
+*.xlsx
+wave.dsn
+wave.trn
+makefile~
+*.rc~
+# 忽略 temp 資料夾及其內容
+temp/
+verdiLog/
+xcelium.d/
+INCA_libs/
+nWaveLog/
+work/
+impl/atpg/[0-9]*
+impl/lec/[0-9]*
+impl/eco/[0-9]*
+impl/sta/[0-9]*
+impl/syn/[0-9]*
+sim/fpga_*sim
+sim/gate_sim
+sim/pos*sim
+fpga/db
+fpga/export_db
+fpga/incremental_db
+fpga/output_files
+# Cadence Simulation Outputs
+simulation/
+*.psf/
+*.raw/
+*.log
+*.err
+*.out
+*.ahdlSimDB/
+*.dfII_errset
+# Innovus/Encounter
+**/inn_tmp/
+**/timingReports/
+**/fv/
+**/save_design.last/
+*.geom/
+*.manifest
+*.verify/
+# Cadence Library & Lock Files
+*.cdslck
+*.cdslck.*
+libName.log
+cds.lib.bak
+cdsinfo.tag
+pcb/
+# 忽略特定檔案
+# 忽略編譯產生的執行檔 (Windows)
+*.exe
